@@ -1,0 +1,151 @@
+body{
+  margin: 2px;
+  background-color: #A9A9A9;
+  font-family: "Times New Roman";
+}
+
+header {
+  background: #00008B;
+  color: white;
+  padding: 0 0 3px 20px;
+  height: 85px;
+}
+header h1
+{
+  display: inline;
+  font-family: "Times New Roman", cursive;
+  float: left;
+  font-size: 36px;
+  margin-right: 60px;
+}
+
+nav ul{
+  display: inline;
+  float: right;
+  margin-right: 40px;
+}
+nav ul li{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+nav ul li a{
+  display: block;
+  font-family:  "Times New Roman";
+  font-size: 18px;
+  color: white;
+
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.boxes{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+
+}
+
+#columns{
+	margin-top: 70px;
+
+}
+#columns .air {
+	float:left;
+	text-align:center;
+	font-weight: bold;
+	width:30%;
+	padding:10px;
+}
+#columns .air h3 a{
+	text-decoration: none;
+	color: black;
+
+}
+#columns .air img{
+	
+	width:360px;
+	height:330px;
+
+}
+
+
+
+.img1{
+  height: 700px;
+  background: url('http://www.fluentu.com/blog/french/wp-content/uploads/sites/3/2014/07/sunny.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text1{
+  text-align: center;
+  color: white;
+  margin-top = 10px;
+}
+footer{
+  clear: both;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+
+#columns1{
+	margin-top: 70px;
+}
+
+#columns1 .air3 {
+	float:left;
+	text-align:center;
+	font-weight: bold;
+	width:99%;
+	padding-left:40px;
+	padding-right:20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+#columns1 .air3 img{
+	float:left;	
+	width:400px;
+	height:250px;
+
+}
+#columns1 .air3 h3 a{
+text-decoration: none;
+}
+
+#columns1 .air2 {
+	float:right;
+	text-align:center;
+	font-weight: bold;
+	width:99%;
+	padding-left:40px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+#columns1 .air2 img{
+	float:right;
+	width:400px;
+	height:250px;
+
+}
+
+#columns1 .air2 h3 a{
+	text-decoration:none;
+}
+
+.sea
+{
+  text-align: center;
+}
+
+.bigbox{
+	width:100%;
+	margin:auto;
+	overflow: hidden;
+}
